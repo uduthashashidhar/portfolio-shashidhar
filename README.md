@@ -17,7 +17,7 @@
 <p align="center">A modern, responsive portfolio website showcasing professional experience, projects, and skills in the cybersecurity field. Built with React, Vite, and Tailwind CSS, featuring smooth animations and interactive elements. ✨</p>
 
 </div>
- live portfolio at https://portfolio-uduthashashidhar.vercel.app
+ live portfolio at https://portfolio-shashidhar.vercel.app/
  📄 License
 <div align="center">
 MIT License © Udutha Shashidhar
