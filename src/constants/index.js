@@ -38,10 +38,10 @@ export const navLinks = [
 ];
 
 export const services = [
-  { title: "C", icon: c },
-  { title: "C++", icon: cpp },
-  { title: "Python", icon: python },
-  { title: "Java", icon: java },
+  { title: "kali linux", icon: c },
+  { title: "nessus", icon: cpp },
+  { title: "SIEM", icon: python },
+  { title: "pentesting", icon: java },
 ];
 
 export const technologies = [
@@ -57,114 +57,67 @@ export const technologies = [
 
 export const experiences = [
   {
-    title: "AI/ML Intern",
-    company_name: "EduSkill Foundation | AWS Academy | AICTE",
+    title: "cybersecurity programmer",
+    company_name: "Mallareddy university",
     icon: eduskill,
     iconBg: "#161329",
-    date: "Sep 2023 - Nov 2023",
+    date: "Jan 2024",
     points: [
-      "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-      "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+      "Cybersecurity Expertise and Training: Conducting hands-on workshops and training sessions to educate students on advanced cybersecurity tools and techniques, including penetration testing, incident response, and ethical hacking practices.",
+      "Mentorship and Curriculum Development: Guiding students in developing practical skills through interactive labs and projects while enhancing the university's cybersecurity curriculum to align with industry standards.",
     ],
   },
   {
-    title: "Mathwork Ai Virtual Intern",
-    company_name: "Mathwork | AICTE",
+    title: "cybersecurity Traine",
+    company_name: "Skiligence-Be futture Relevant",
     icon: mathwork,
     iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
+    date: "May 2021",
     points: [
-      "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
-      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
-      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
-    ],
-  },
-  {
-    title: "Artificial Intelligence Intern",
-    company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
-    icon: edunet,
-    iconBg: "#161329",
-    date: "June 2023 - July 2023",
-    points: [
-      "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
-      "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
-      "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
+      "Workshop Conduction and Industry Outreach: Organized and led impactful cybersecurity workshops for premier institutions, including IITs and VNIT Nagpur, delivering hands-on training in ethical hacking, network security, and advanced cybersecurity tools.",
+      "Skill Development and Corporate Training: Provided tailored cybersecurity training programs to companies, equipping professionals with practical knowledge in penetration testing, threat analysis, and incident response.",
+      "Extensive Workshop Experience: Conducted numerous workshops across various colleges and universities, focusing on interactive, practical learning to bridge the gap between theoretical knowledge and real-world cybersecurity challenges.",
     ],
   },
 ];
 
 export const projects = [
   {
-    name: "WeatherPedia",
+    name: "Siem-project-ibm",
     description:
-      "Web-based platform that allows users to access weather information for their location by entering it in the search field",
+      "Application-Security-Analyzer-Using-SIEM-Tool",
     tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "HTML", color: "green-text-gradient" },
-      { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
-      { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
+      { name: "IBM", color: "blue-text-gradient" },
+      { name: "kali", color: "green-text-gradient" },
+      { name: "AWS", color: "pink-text-gradient" },
+      { name: "WIN", color: "yellow-text-gradient" },
     ],
     image: weatherpedia,
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
+    source_code_link: "https://github.com/uduthashashidhar/Siem-project-ibm",
   },
   {
-    name: "Terminal Like Portfolio Website",
+    name: "honeypot",
     description:
-      "A terminal themed portfolio website that allows users to type into the terminal and use commands like a real terminal.",
+      "A honeypot is a security mechanism designed to act as a decoy system, intentionally set up to attract cyber attackers, gather intelligence on their methods, and detect potential threats.",
     tags: [
-      { name: "HTML", color: "blue-text-gradient" },
-      { name: "css", color: "green-text-gradient" },
+      { name: "SHELL", color: "blue-text-gradient" },
+      { name: "AWS", color: "green-text-gradient" },
       { name: "Javascript", color: "pink-text-gradient" },
     ],
     image: termpw,
-    source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
+    source_code_link: "https://github.com/uduthashashidhar/honeypot1",
   },
   {
-    name: "Mental Health Fitness Tracker",
+    name: "p4wnpa1",
     description:
-      "ML model that utilizes regression techniques to provide insights into mental health and make predictions based on the available data.",
+      "P4wnP1 A.L.O.A. by MaMe82 is a framework which turns a Rapsberry Pi Zero W into a flexible, low-cost platform for pentesting, red teaming and physical engagements ... or into A Little Offensive Appliance",
     tags: [
-      { name: "Machine Learning", color: "blue-text-gradient" },
-      { name: "Jupyter Notebook", color: "green-text-gradient" },
-      { name: "Regression Algorithms", color: "pink-text-gradient" },
+      { name: "HID Script", color: "blue-text-gradient" },
+      { name: "CLI", color: "green-text-gradient" },
+      { name: "kali", color: "pink-text-gradient" },
     ],
     image: mhft,
     source_code_link:
-      "https://github.com/lohitkolluri/mental_health_fitness_tracker",
-  },
-  {
-    name: "PayloadMaster",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "shell", color: "blue-text-gradient" },
-    ],
-    image: payloadmaster,
-    source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
-  },
-  {
-    name: "CompileVortex",
-    description:
-      "Tool to automate payload creation using the Metasploit framework",
-    tags: [
-      { name: "Javascript", color: "blue-text-gradient" },
-      { name: "CSS", color: "green-text-gradient" },
-      { name: "HTML", color: "pink-text-gradient" },
-    ],
-    image: CompileVortex,
-    source_code_link: "https://github.com/lohitkolluri/CompileVortex",
-  },
-  {
-    name: "Sketcher",
-    description:
-      "Convert an input image to a pencil sketch using OpenCV and Matplotlib libraries.",
-    tags: [
-      { name: "OpenCV", color: "blue-text-gradient" },
-      { name: "Matplotlib", color: "green-text-gradient" },
-      { name: "Python", color: "pink-text-gradient" },
-    ],
-
-    image: sketcher,
-    source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
+      "https://github.com/uduthashashidhar/p4wnpa1",
   },
 ];

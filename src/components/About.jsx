@@ -40,11 +40,12 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a Computer Science student at SRM University and multilingual speaker with a passion
-        for ethical hacking, artificial intelligence, and neural language processing. I am looking
-        to join a company that values innovation, collaboration, and continuous learning and am
-        confident that my enthusiasm and drive will help me succeed in any role that leverages my
-        passion for technology.
+        I am a Cybersecurity Expert and Penetration Tester with a passion for ethical hacking, incident response, and security training. 
+        With extensive experience in conducting workshops and hands-on sessions, 
+        I specialize in empowering others with the skills needed to combat modern cyber threats. 
+        Currently working at a university, 
+        I aim to contribute to innovative cybersecurity solutions and foster a culture of continuous learning in the field.
+        
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
