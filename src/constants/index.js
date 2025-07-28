@@ -59,7 +59,7 @@ export const experiences = [
   {
     title: "Member in NSRC",
     company_name: "Nataional Cybersecuirty Research Councile",
-    icon: eduskill,
+    icon: nsrc,
     iconBg: "#161329",
     date: "Jan 2025",
     points: [
