@@ -57,7 +57,18 @@ export const technologies = [
 
 export const experiences = [
   {
-    title: "cybersecurity analyst",
+    title: "Member in NSRC",
+    company_name: "Nataional Cybersecuirty Research Councile",
+    icon: eduskill,
+    iconBg: "#161329",
+    date: "Jan 2025",
+    points: [
+      "Providing Expert Input on Cyber Threats  Share knowledge and updates on the latest cyber threats, attacks, and defense strategies to support the council’s initiatives.",
+      "Supporting Awareness and Research Efforts Contribute to cybersecurity awareness programs and assist in research activities that help protect national digital infrastructure.",
+    ],
+  }
+  {
+    title: "cybersecurity Analyst",
     company_name: "Mallareddy university",
     icon: eduskill,
     iconBg: "#161329",
