@@ -20,6 +20,7 @@ import {
   mathwork,
   CompileVortex,
   eduskill,
+  nsrc,
 } from "../assets";
 
 export const navLinks = [
