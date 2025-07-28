@@ -63,10 +63,10 @@ export const experiences = [
     iconBg: "#161329",
     date: "Jan 2025",
     points: [
-      "Providing Expert Input on Cyber Threats  Share knowledge and updates on the latest cyber threats, attacks, and defense strategies to support the council’s initiatives.",
+      "Providing Expert Input on Cyber Threats  Share knowledge and updates on the latest cyber threats, attacks, and defense strategies to support the councils initiatives.",
       "Supporting Awareness and Research Efforts Contribute to cybersecurity awareness programs and assist in research activities that help protect national digital infrastructure.",
     ],
-  }
+  },
   {
     title: "cybersecurity Analyst",
     company_name: "Mallareddy university",
